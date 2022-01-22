@@ -19,8 +19,9 @@ Giving users a fast and easy way to track their money is important, but allowing
 * Express.js
 * Node.js
 * Morgan
-* Mongoose
-* MongoDB
+* Service Worker- to enable offline functionality
+* Webpack- to bundle files for compression
+* MongoDB + Mongoose- schema data
 
 ## Deployment
 * MongoDB Atlas
@@ -38,8 +39,7 @@ Giving users a fast and easy way to track their money is important, but allowing
 
 ## Resources
 * Student Mini Project
-* https://coding-boot-camp.github.io/full-stack/mongodb/how-to-set-up-mongodb-atlas
-* https://coding-boot-camp.github.io/full-stack/mongodb deploy-with-heroku-and-mongodb-atlas
+* https://coding-boot-camp.github.io/full-stack/mongodb/deploy-with-heroku-and-mongodb-atlas
 * https://developers.google.com/web/fundamentals/primers/service-workers
 * https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API 
 * https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json

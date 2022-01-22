@@ -8,9 +8,10 @@
   <link rel="shortcut icon" href="icons/icon-192x192.png" type="image/x-icon">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles.css">
+<!-- manfiest tells the browser about the app and how it should behave when installed-->
   <link rel="manifest" href="/manifest.json">
 
-  <title>Budget Tracker</title>
+  <title>Financial Finesse: The Ultimate Budget Tracker</title>
 </head>
 <body>
   <div class="wrapper">
@@ -19,10 +20,10 @@
     </div>
 
     <div class="form">
-      <input type="text" id="t-name" placeholder="Name of transaction" />
+      <input type="text" id="t-name" placeholder="Transaction name" />
       <input type="number" min="0" id="t-amount" placeholder="Transaction amount" />
       <button id="add-btn"><i class="fa fa-plus buttons"></i> Add Funds</button>
-      <button id="sub-btn"><i class="fa fa-minus"></i> Subtract Funds</button>
+      <button id="sub-btn"><i class="fa fa-minus"></i> Sub Funds</button>
       <p class="error"></p>
     </div>
 
@@ -45,6 +46,7 @@
   <script src="index.js"></script>
   <script src="db.js"></script>
   <script type="text/javascript">
+  //Service worker acts as a proxby between the web app and the internet. Cache's content so that it can be accessed offline
     (function () {
       if ("serviceWorker" in navigator) {
         navigator.serviceWorker.register("./service-worker.js", { scope: "/" })

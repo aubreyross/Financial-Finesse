@@ -3,9 +3,10 @@ const FILES_TO_CACHE = [
   '/index.html',
   '/index.js',
   '/db.js',
-  '/style.css',
+  '/styles.css',
   '/manifest.json',
-  'icons/icon-192x192.png'
+  'icons/icon-192x192.png',
+  'icons/icon-512x512.png'
 ];
 
 const PRECACHE = 'precache-v1';
@@ -41,7 +42,8 @@ self.addEventListener('activate', (event) => {
 });
 
 self.addEventListener('fetch', (event) => {
-  if (event.request.url.includes('/api/')) {
+  //caches succesful request to API
+  if (event.request.url.includes('/api/transaction')) {
     event.respondWith(
       caches.open(RUNTIME).then(cache => 
        fetch(event.request).then(response => {

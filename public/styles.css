@@ -1,11 +1,22 @@
 body {
   font-size: 120%;
-  font-family: Arial;
+  font-family: monospace, sans-serif;
 }
 
-button, input {
-  font-size: 100%;
-  font-family: Arial;
+button{
+    background-color: rgb(225, 233, 233);
+    border: none;
+    padding: 6px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+  }
+
+
+input {
+  font-size: 90%;
+  font-family: monospace, sans-serif;
 }
 
 table {
@@ -34,7 +45,7 @@ tr:nth-child(even) {
 
 .total {
   font-size: 150%;
-  text-decoration: underline;
+  text-transform: uppercase;
 }
 
 .form {

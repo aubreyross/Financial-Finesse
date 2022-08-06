@@ -1,6 +1,6 @@
 # financial-finesse
 
-No better time to get started on finessing those finances. This easy to use workout tracker will help you stay on top of your financial goals by tracking your transaction flows, whether you're online or off. 
+No better time to get started on finessing those finances. This easy to use financial tracker will help you stay on top of your money goals by tracking your transaction flows, whether you're online or off. 
 
 ## User Story
 * AS AN avid traveller

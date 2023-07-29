@@ -25,10 +25,10 @@ Giving users a fast and easy way to track their money is important, but allowing
 
 ## Deployment
 * MongoDB Atlas
-* Heroku
+* Vercel
 
 ## URLs
-* Deployed: https://financial-finesse.herokuapp.com/
+* Deployed: https://financial-finesse.vercel.app/
 * Code: https://github.com/aubreyross/financial-finesse
 
 ## Preview
@@ -39,7 +39,6 @@ Giving users a fast and easy way to track their money is important, but allowing
 
 ## Resources
 * Student Mini Project
-* https://coding-boot-camp.github.io/full-stack/mongodb/deploy-with-heroku-and-mongodb-atlas
 * https://developers.google.com/web/fundamentals/primers/service-workers
 * https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API 
 * https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json
